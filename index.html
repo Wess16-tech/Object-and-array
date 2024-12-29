@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h2>Javascript Arrays</h2>
+    <p id="demo"></p>
+    <p id="myjoin"></p>
+    <p id="myfirstpop"></p>
+    <p id="mysecondpop"></p>
+    <script>
+        var fruits = [
+            "Orange",
+            "Mango",
+            "Watermelon"
+        ];
+        document.getElementById("demo").innerHTML = fruits[2];
+        var fruits = ["Bear", "Cat", "Dog", "Koala"];
+        document.getElementById("myjoin").innerHTML = fruits.join(" * ");
+        fruits.pop();
+        document.getElementById("myfirstpop").innerHTML = fruits; 
+        fruits.pop();
+        document.getElementById("mysecondpop").innerHTML = fruits; 
+         var student = {name:Nataly, grade:7, gender:female};
+        document.getElementById("demo").innerHTML = student["name"];
+    </script>
+</body>
+
+</html>
